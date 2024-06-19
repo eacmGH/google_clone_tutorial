@@ -21,15 +21,30 @@ body {
 .main-nav__list {
   width: 19.231rem;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   list-style-type: none;
+  align-items: center;
 }
 
 .main-nav__link {
   text-decoration: none;
 }
 
-.main-nav__link, .main-nav__icon {
-  margin-right: 0.769rem;
+.main-nav__link {
   color: #000;
+}
+
+.main-nav__item--icon {
+  background-image: url('../images/svg_apps.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  cursor: pointer;
+  width: 1.846rem;
+  height: 1.846rem;
+}
+
+.main-nav__link--photo {
+  border-radius: 50%;
+  width: 2.308rem;
 }
