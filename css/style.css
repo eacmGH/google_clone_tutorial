@@ -28,9 +28,6 @@ body {
 
 .main-nav__link {
   text-decoration: none;
-}
-
-.main-nav__link {
   color: #000;
 }
 
@@ -47,4 +44,19 @@ body {
 .main-nav__link--photo {
   border-radius: 50%;
   width: 2.308rem;
+}
+
+.main {
+  text-align: center;
+}
+
+.main__logo {
+  width: 37.857rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2.5rem;
+}
+
+.main__logo img {
+  width: 27.5rem;
 }
